@@ -119,7 +119,7 @@
     <h2>Registration Form</h2>
     <form action="regesback.php" method="post">
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" placeholder="Full Name" required>
+        <input type="text" id="name" name="name" value="name" placeholder="Full Name" required>
 
         <label for="pass">Password:</label>
         <input type="password" id="pass"  name="password" placeholder="Password" required>
@@ -136,6 +136,7 @@
         <input type="submit" value="Submit">
     </form>
 </div>
+
 
 </body>
 </html>

@@ -13,10 +13,24 @@
       padding: 17px; 
       border: 1px solid #ccc; 
       border-radius: 10px; 
-      background-color: #ffffff;
-      opacity: 90%;
+      background-color: rgba(255,255,255,0.7);
+      
       margin-top: 20px;
-    } 
+      opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 0.5s forwards ease-out;
+            animation-delay: 0.4s;
+           
+            
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
     .container h1 { 
       text-align: center; 
     } 
@@ -30,6 +44,7 @@
       margin-bottom: 10px; 
       border: 1px solid #ccc; 
       border-radius: 12px; 
+      background-color: rgba(255,255,255,0.7);
     } 
     .container select { 
       width: 100%; 

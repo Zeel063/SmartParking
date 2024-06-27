@@ -15,6 +15,7 @@
       margin-top: 0%;
       transition: background-color 0.5s ease; /* Add transition effect */
       animation: bounceIn 2s ease;
+      animation: slideIn 2s ease;
     }
 
   .navigation:hover {
@@ -43,7 +44,8 @@
       padding: 10px; /* Adjust the padding as needed */
       text-align: center;
       transition: background-color 0.5s ease; /* Add transition effect */
-      animation: bounceIn 5s ease;
+      /*animation: bounceIn 5s ease;*/
+      animation: fadeIn 2s ease;
     }
 
     footer:hover {
@@ -53,6 +55,7 @@
     body {
       /* Add a fade-in animation on page load */
       animation: fadeIn 2s ease;
+     /* animation: bounceIn 5s ease;*/
     }
 
     @keyframes fadeIn {
@@ -84,7 +87,7 @@
 
     /* Add animation to the heading */
     h1 {
-      animation: bounceIn 5s ease;
+      /*animation: bounceIn 5s ease;*/
     }
 
     @keyframes bounceIn {

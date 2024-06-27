@@ -113,7 +113,7 @@
  <div class="container">
         <div class="login-box">
             <h2>Login</h2>
-            <form action="connect.php" method="POST" onsubmit="return validateForm()">
+            <form action="connect.php" method="post" onsubmit="return validateForm()">
                 <div class="input-container">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -152,6 +152,7 @@ function validateForm() {
             event.preventDefault(); // Prevent actual form submission for demo purposes
             alert('Form submitted successfully!');
             // Replace with actual form submission code
+            window.location.href = 'index.php';
         });
 
         // Redirect to signup page
