@@ -13,7 +13,7 @@
       padding: 17px; 
       border: 1px solid #ccc; 
       border-radius: 10px; 
-      background-color: rgba(255,255,255,0.7);
+      background-color: rgba(255,255,255,0.8);
       
       margin-top: 20px;
       opacity: 0;
